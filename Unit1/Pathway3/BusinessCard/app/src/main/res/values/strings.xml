@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BusinessCard</string>
+
+    <string name="text_phone">BusinessCard</string>
+    <string name="text_share">BusinessCard</string>
+    <string name="text_email">BusinessCard</string>
+    <string name="full_name">Габбазов Руслан</string>
+    <string name="skill_description">Junior Kotlin Android Developer</string>
+    <string name="phone_number">+7 (937) 596 00 31</string>
+    <string name="share_name">\@ruslanrest</string>
+    <string name="email">ruslan.gabbazov01@gmail.com</string>
+</resources>
