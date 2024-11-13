@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">RestArtSpace</string>
 
-    <string name="prev">Предыдущий</string>
-    <string name="next">Следующий</string>
+    <string name="prev">Назад</string>
+    <string name="next">Вперед</string>
 
     <string name="PontNeufName">Мост Пон-Нёф</string>
     <string name="PontNeufDescription">Мост через реку Сену, Париж (XVI—XVII века)</string>
