@@ -4,21 +4,22 @@
     <string name="prev">Предыдущий</string>
     <string name="next">Следующий</string>
 
-    <string name="TGeorgesSeurat">A Sunday Afternoon on the Island of La Grande Jatte</string>
-    <string name="George">Georges Seura (1884)</string>
+    <string name="PontNeufName">Мост Пон-Нёф</string>
+    <string name="PontNeufDescription">Мост через реку Сену, Париж (XVI—XVII века)</string>
 
-    <string name="TSelfPortrait">Self Portrait</string>
-    <string name="SelfPortrait">Vincent van Gogh (1889)</string>
+    <string name="PontAlexandreIIIName">Мост Александра III</string>
+    <string name="PontAlexandreIIIDescription">Одноарочный мост через Сену, Париж (1896—1900 гг.)</string>
 
-    <string name="TEdvardMunch">The Scream</string>
-    <string name="EdvardMunch">Edvard Munch (1893)</string>
+    <string name="ElizabethBridgeName">Мост Эржебет</string>
+    <string name="ElizabethBridgeDescription">Висячий мост в Будапеште, Венгрия (1898—1903 гг.)</string>
 
-    <string name="TEugeneDelacroix">Self-Portrait with Green Vest, ca.</string>
-    <string name="EugeneDelacroix">Eugene Delacroix (1837)</string>
+    <string name="BrooklynBridgeName">Бруклинский мост</string>
+    <string name="BrooklynBridgeDescription">Висячий мост в Нью-Йорке, Нью-Йорк (1870—1883 гг.)</string>
 
-    <string name="TJohannes">Het meisje met de parel (Girl with a Pearl Earring)</string>
-    <string name="JohannesVermeer">Johannes Vermeer (1665)</string>
+    <string name="GoldenBridgeName">Мост Золотые Ворота</string>
+    <string name="GoldenBridgeDescription">Висячий мост через пролив Золотые Ворота, Сан-Франциско (1933—1937 гг.)</string>
 
-    <string name="TJeanAntoine">The Shop Sign of Gersaint</string>
-    <string name="JeanAntoine">Jean-Antoine Watteau (1720)</string>
+    <string name="TowerBridgeName">Тауэрский мост</string>
+    <string name="TowerBridgeDescription">Мост над рекой Темзой, Лондон (1886—1894 гг.)</string>
+
 </resources>

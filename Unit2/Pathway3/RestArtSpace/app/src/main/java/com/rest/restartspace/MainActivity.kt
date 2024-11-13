@@ -77,39 +77,39 @@ data class Content(
 fun getContent(imageNumber: Int): Content {
     return when (imageNumber) {
         1 -> Content(
-            artPicture = painterResource(R.drawable.edvardmunch),
-            artTitle = stringResource(R.string.TEdvardMunch),
-            artistName = stringResource(id = R.string.EdvardMunch)
+            artPicture = painterResource(R.drawable.pontneuftoulouse),
+            artTitle = stringResource(R.string.PontNeufName),
+            artistName = stringResource(R.string.PontNeufDescription)
         )
 
         2 -> Content(
-            artPicture = painterResource(R.drawable.johannes),
-            artTitle = stringResource(R.string.TJohannes),
-            artistName = stringResource(id = R.string.JohannesVermeer)
+            artPicture = painterResource(R.drawable.elizabethbridge),
+            artTitle = stringResource(R.string.ElizabethBridgeName),
+            artistName = stringResource(R.string.ElizabethBridgeDescription)
         )
 
         3 -> Content(
-            artPicture = painterResource(R.drawable.georges),
-            artTitle = stringResource(R.string.TGeorgesSeurat),
-            artistName = stringResource(id = R.string.George)
+            artPicture = painterResource(R.drawable.goldengate),
+            artTitle = stringResource(R.string.GoldenBridgeName),
+            artistName = stringResource(R.string.GoldenBridgeDescription)
         )
 
         4 -> Content(
-            artPicture = painterResource(R.drawable.selfportrait),
-            artTitle = stringResource(R.string.TSelfPortrait),
-            artistName = stringResource(id = R.string.SelfPortrait)
+            artPicture = painterResource(R.drawable.pontalexandreiii),
+            artTitle = stringResource(R.string.PontAlexandreIIIName),
+            artistName = stringResource(R.string.PontAlexandreIIIDescription)
         )
 
         5 -> Content(
-            artPicture = painterResource(R.drawable.eugenedelacroix),
-            artTitle = stringResource(R.string.TEugeneDelacroix),
-            artistName = stringResource(id = R.string.EugeneDelacroix)
+            artPicture = painterResource(R.drawable.towerbridge),
+            artTitle = stringResource(R.string.TowerBridgeName),
+            artistName = stringResource(R.string.TowerBridgeDescription)
         )
 
         else -> Content(
-            artPicture = painterResource(R.drawable.jean_antoine),
-            artTitle = stringResource(R.string.TJeanAntoine),
-            artistName = stringResource(id = R.string.JeanAntoine)
+            artPicture = painterResource(R.drawable.brooklynbridge),
+            artTitle = stringResource(R.string.BrooklynBridgeName),
+            artistName = stringResource(R.string.BrooklynBridgeDescription)
         )
     }
 }
@@ -150,13 +150,15 @@ fun ArtImage(artPicture: Painter) {
             .fillMaxWidth()
             .border(border = BorderStroke(2.dp, Green80), shape = RectangleShape)
             .shadow(elevation = 4.dp)
-            .padding(10.dp)
+            .padding(16.dp)
     )
 }
 
 @Composable
 fun ArtCard(artTitle: String, artistName: String) {
-    Card(modifier = Modifier.fillMaxWidth().height(120.dp)) {
+    Card(modifier = Modifier
+        .fillMaxWidth()
+        .height(120.dp)) {
         Column(
             modifier = Modifier
                 .fillMaxSize()
