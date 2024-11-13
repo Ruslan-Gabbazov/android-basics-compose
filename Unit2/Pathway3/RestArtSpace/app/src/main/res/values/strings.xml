@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">RestArtSpace</string>
 
+    <string name="prev">Предыдущий</string>
+    <string name="next">Следующий</string>
+
     <string name="TGeorgesSeurat">A Sunday Afternoon on the Island of La Grande Jatte</string>
     <string name="George">Georges Seura (1884)</string>
 
